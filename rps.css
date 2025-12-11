@@ -1,0 +1,82 @@
+.a{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:200px;
+    
+}
+#b
+{
+    font-family: "Akronim", system-ui;
+  font-weight: 1000;
+  font-style: normal;
+    text-align:center;
+    font-size: 150px;
+}
+.c{
+    height:200px;
+    width:200px;
+    border-radius:50px;
+    border: 2px solid rgb(13, 27, 42);
+}
+.d{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:210px;
+    margin-top: 50px;
+}
+.e{
+    height:70px;
+    width:200px;
+     color:rgb(224, 225, 221);
+     background-color: rgb(65, 90, 119);
+     border-radius: 100px;
+      box-shadow: 0 6px 6px rgba(3,3,3,3);
+
+}
+body{
+    background-color: rgb(224, 225, 221);
+    text-align:center;
+}
+#f{
+    text-align: center;
+    margin-top: -150px;
+    margin-bottom: 100px;
+}
+#msg{
+    background-color:rgb(40, 56, 75);
+    color:rgb(224, 225, 221);
+    font-size:  2rem;
+    display:inline;
+    justify-content:center;
+    text-align: center;
+    border:0.6rem dotted black
+
+
+}
+.e:hover{
+    opacity:0.5;
+    cursor:pointer;
+    background-color: rgb(11, 71, 82);
+      border: 7px solid rgb(13, 27, 42);
+}
+.score-board{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:100px;
+        font-size:60px;
+}
+#userscore,#compscore{
+    font-size:100px;
+    margin-bottom: -100px;
+}
+#rounds{
+    width:290px;
+    margin-bottom: 50px;
+}
+#but{
+    height: 40px;
+    margin-top: 50px;
+}

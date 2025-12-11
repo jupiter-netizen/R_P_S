@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <title>Rock-Paper-Scirrors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akronim&family=Almendra+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <h1 id="b">STONE-PAPER-SCISSORS</h1>
+    <h2 id="f"><i class="fa-solid fa-mountain"></i>-<i class="fa-solid fa-hand-paper"> </i>-<i class="fa-solid fa-hand-scissors"></i></h2>
+
+    <div class="a">
+    <img src="images\avinash-kumar-m9m93_B5KSU-unsplash.jpg" class="c" title="scissors" >
+    <img src="images\shahreboye-KBb9ggQmgeY-unsplash.jpg" class="c" title="rock">
+    <img src="images\nathan-defiesta-T_xahwAfsGY-unsplash.jpg" class="c" title="paper" >
+    </div>
+    <div class="d">
+        <button class="e" id="scissors"><i class="fa-solid fa-scissors"></i> scissors <i class="fa-solid fa-hand-scissors"></i> </button>
+        <button class="e" id="rock"><i class="fa-solid fa-gem"></i> stone <i class="fa-solid fa-hand-rock"></i> </button>
+        <button class="e" id="paper"><i class="fa-solid fa-file"></i> paper <i class="fa-solid fa-hand-paper"></i> </button>
+    </div>
+    <div class="score-board">
+    <div class="score">
+        <p id="userscore">0</p>
+        <p>you</p></div>
+    <div class="score">
+        <p id="compscore">0</p>
+        <p>computer</p>
+     </div>
+    </div>
+            <div class="msg-container">
+                <p id="msg">Play your move</p>
+            </div>
+            <button id="but" >reset/new game</button>
+            
+            <script src="rps.js"></script>
+</body>
+</html>
